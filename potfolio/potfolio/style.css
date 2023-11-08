@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: white;
+  }
+
+  .nav-item a:hover {
+    color: red;
+  }
+
+  #menu {
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/bg-masthead.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hue;
+    background-color:rgba(0, 0, 0, 0.245);
+  }
+
+  .fa-facebook:hover{
+    color: blue;
+  }
+  .fa-twitter:hover{
+    color: #0d6efd;
+  }
+  .fa-instagram:hover{
+    color:#962875 ;
+  }
+  .fa-linkedin:hover{
+    color: #0d6efd;
+  }
+
+  

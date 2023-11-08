@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header start */
+
+
+.power {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    background-color: rgba(180, 203, 203, 0.438);
+    background-blend-mode: hue;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    padding-bottom: 170px;
+    margin-left: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    margin-left: 900px;
+
+}
+
+
+.menu,
+.two,
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.one h2,
+.two h2,
+.three h2,
+.four h2 {
+    color: black;
+}
+
+.one h2:hover,
+.two h2:hover,
+.three h2:hover,
+.four h2:hover {
+    color: white;
+}
+
+
+.drop {
+    width: 160px;
+    height: 81px;
+    background-color: rgba(100, 74, 74, 0.486);
+    position: absolute;
+}
+
+
+.drop,
+li {
+    width: 150px;
+    border: 1px solid rgb(179, 162, 162);
+    display: none;
+    list-style: none;
+    color: white;
+    font-size: 22px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.two:hover .drop,
+li {
+    display: block;
+
+
+}
+
+.drop,li,a:hover {
+    color: rgb(231, 238, 167);
+}
+
+
+/* ===========content start================= */
+
+.main{
+    width: 100%;
+    height: 20 0vh;
+    border: 1px solid;
+    background-color: rgba(202, 190, 190, 0.502);
+   
+    
+}
+
+.maincar{
+   
+    margin-top:130px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.imgcar{
+    width: 440px;
+    height: 620px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgba(211, 225, 229, 0.222);
+
+}
+
+.imgcar h3{
+    font-size: 25px;
+    font-weight: 600;
+    padding: left 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.imgcar h3:hover{
+    color:gray;
+}
+
+
+.imgcar img{
+    width: 380px;
+    height:480px;
+   margin-left: 30px;
+   margin-top: 20px;
+}
+
+.imgcar img:hover{
+    transform: scale(0.9);
+    transition: all 0.8s linear;
+    border-radius: 5%;
+}
+
+.lemo{
+    width: 450px;  
+    display: flex;
+   
+    
+}
+.lemo h4{
+    font-size: 24px;
+   margin-left: 30px;
+    margin-top: 10px;
+
+
+}
+.lemo h5{
+    font-size: 26px;
+    line-height: 25px;
+    margin-left: 130px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.price h6{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    color:rgba(241, 201, 100, 0.892)
+}
+
+
+/* ============= footer start============== */
+
+.mainf {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.mainlogo {
+    width: 350px;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 60px;
+    gap: 40px;
+
+}
+
+.bb img {
+
+    width: 40px;
+    height: 50px;
+
+}
+
+.gg {
+    width: 350px;
+    height: 100px;
+}
+
+.gg h3 {
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 23px;
+    color: white;
+}
+
+.gg h3:hover {
+    color: rgb(168, 159, 159);
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.mainfoter {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.footer img {
+    width: 200px;
+    height: 20px;
+    margin-top: 45px;
+    margin-right: 70px;
+
+}
+
+.footer p {
+    padding-top: 20px;
+    color: white;
+    font-size: 23px;
+}
+
+.footer p:hover {
+    font-family: Arial;
+    color: #7A7A7A;
+}
+
+
+.footer h3 {
+    margin-right: 40px;
+    padding: 20px;
+    color: rgb(240, 205, 140);
+}
+
+
+.footer h4 {
+    color: grey;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer h4:hover {
+    color: rgb(138, 108, 108);
+}
+
+.footer h5 {
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    color: gainsboro;
+}
+
+.footer h5:hover {
+    color: rgb(244, 230, 157);
+    transform: scale(0.8);
+    transition: all 4s linear;
+}
+
+.copy {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+
+}
+
+.copy h4 {
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px
+
+
+}
+
+.copy h5 {
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 1000px;
+    margin-top: 20px;
+}
+
+.copy h5,
+i {
+    word-spacing: 50px;
+
+}
+.copy  i{
+    color: white;
+}
+.copy  i:hover{
+        color: goldenrod;
+}
+
+
+
+
+

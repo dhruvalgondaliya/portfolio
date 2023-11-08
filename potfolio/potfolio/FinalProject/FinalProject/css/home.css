@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header start */
+
+
+.power {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    background-color: rgba(180, 203, 203, 0.438);
+    background-blend-mode: hue;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    padding-bottom: 170px;
+    margin-left: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    margin-left: 900px;
+
+}
+
+
+.menu,
+.two,
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.one h2,
+.two h2,
+.three h2,
+.four h2 {
+    color: black;
+}
+
+.one h2:hover,
+.two h2:hover,
+.three h2:hover,
+.four h2:hover {
+    color: white;
+}
+
+
+.drop {
+    width: 160px;
+    height: 81px;
+    background-color: rgba(100, 74, 74, 0.486);
+    position: absolute;
+}
+
+
+.drop,
+li {
+    width: 150px;
+    border: 1px solid rgb(179, 162, 162);
+    display: none;
+    list-style: none;
+    color: white;
+    font-size: 22px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.two:hover .drop,
+li {
+    display: block;
+
+
+}
+
+.drop,li,a:hover {
+    color: rgb(231, 238, 167);
+}
+
+
+/* ==============content start==================================== */
+
+.benar {
+    background-image: url(../img/h1-rev-img-1b.jpg);
+    background-color: rgba(0, 0, 0, 0.009);
+    background-blend-mode: hue;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.benar h1 {
+    color: white;
+    padding-top: 350px;
+    margin-left: 220px;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.benar h1:hover{
+    color: #d1a5a5;
+}
+
+.benar p {
+    margin-left: 220px;
+    font-size: 35px;
+    color: aqua;
+}
+
+.form {
+
+    margin-left: 220px;
+    margin-top: 30px;
+
+}
+
+.form input{
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-style: outset;
+    background: transparent;
+    
+}
+.form input::placeholder{
+    color: rgb(230, 219, 219);
+}
+.form button{
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-style: outset;
+    background: transparent;
+    color: rgb(230, 219, 219);
+ 
+}
+
+input:hover {
+    color: rgb(164, 37, 37);
+    border-radius: 10%;
+    background-color:rgba(204, 176, 176, 0.298);
+
+}
+
+
+button:hover {
+    color: rgb(230, 219, 219);
+    background-color:rgba(204, 176, 176, 0.298);
+    border-radius: 10%;
+
+}
+
+.content {
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color: rgba(23, 23, 23, 0.945);
+    font-size: secular One;
+    gap: 100px;
+
+}
+
+.child h2 {
+
+    color: gray;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+    padding: 10px;
+    margin-left: 420px;
+
+
+}
+
+.child-two {
+    padding: 50px;
+    margin-left: 40px;
+    font-size: 29px;
+    padding-top: 40px;
+    font-style: italic;
+    color: gainsboro;
+}
+
+.dv {
+    display: flex;
+    gap: 30px;
+
+}
+
+.dv img {
+
+    width: 70px;
+    height: 60px;
+}
+
+.dv h5 {
+    margin-top: 20px;
+    color: rgb(153, 182, 167);
+}
+
+
+
+.car {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(138, 130, 130);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.first {
+    width: 342px;
+    height: 420px;
+    margin-top: 50px;
+    margin-left: 210px;
+    
+
+
+
+}
+
+.first img {
+    width: 340px;
+    height: 420px;
+}
+
+.first img:hover {
+    transform: scale(0.9);
+    transition: all 0.5s linear;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+
+
+}
+
+
+.car p {
+    font-size: 25px;
+    padding: 30px;
+    font-weight: 500px;
+    color: white;
+    padding-right: 40px;
+}
+
+.star img {
+    height: 30px;
+    width: 180px;
+    margin-left: 70px;
+}
+
+.car1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: rgb(138, 130, 130);
+
+}
+
+.car1 p {
+
+    font-size: 25px;
+    padding: 30px;
+    font-weight: 500px;
+    color: white;
+    padding-left: 80px;
+}
+
+
+
+/* ============= footer start============== */
+
+.mainf {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.mainlogo {
+    width: 350px;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 60px;
+    gap: 40px;
+
+}
+
+.bb img {
+
+    width: 40px;
+    height: 50px;
+
+}
+
+.gg {
+    width: 350px;
+    height: 100px;
+}
+
+.gg h3 {
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 23px;
+    color: white;
+}
+
+.gg h3:hover {
+    color: rgb(168, 159, 159);
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.mainfoter {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.footer img {
+    width: 200px;
+    height: 20px;
+    margin-top: 45px;
+    margin-right: 70px;
+
+}
+
+.footer p {
+    padding-top: 20px;
+    color: white;
+    font-size: 23px;
+}
+
+.footer p:hover {
+    font-family: Arial;
+    color: #7A7A7A;
+}
+
+
+.footer h3 {
+    margin-right: 40px;
+    padding: 20px;
+    color: rgb(240, 205, 140);
+}
+
+
+.footer h4 {
+    color: grey;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer h4:hover {
+    color: rgb(138, 108, 108);
+}
+
+.footer h5 {
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    color: gainsboro;
+}
+
+.footer h5:hover {
+    color: rgb(244, 230, 157);
+    transform: scale(0.8);
+    transition: all 4s linear;
+}
+
+.copy {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+
+}
+
+.copy h4 {
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px
+
+
+}
+
+.copy h5 {
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 900px;
+    margin-top: 20px;
+}
+
+.copy h5,
+i {
+    word-spacing: 50px;
+
+}
+.copy  i{
+    color: rgb(254, 252, 252);
+}
+.copy  i:hover{
+   color: goldenrod;
+}
+
